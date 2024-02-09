@@ -1,0 +1,102 @@
+.status-div {
+    width: 255px;
+    justify-content: flex-end;
+    padding: 10px;
+    margin: 5px;
+    overflow: hidden;
+  }
+
+  .status-div ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .status-div ul button {
+    width: 100%;
+  }
+
+  .status-div li {
+    margin-bottom: 5px;
+  }
+
+  .status-div .content-div {
+    width: 100%;
+  }
+  
+  .status-div a {
+    color: red;
+  }
+  .status-div hr {
+    margin-top: 0;
+  }
+
+  .inline-text {
+    display: inline;
+  }
+
+  .navigation-div {
+    height: 75px; 
+    background-color: black
+  }
+
+  .navigation-div button {
+    height: 67px; 
+    width: 67px; 
+    border: none; 
+    color: white; 
+    background-color:black
+  }
+
+  .navigation-div h6 {
+    color: white;
+  }
+
+  .fa-glasses {
+    color: white;
+  }
+
+  .small-screen {
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 200px;
+    margin: 0px;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  .small-screen ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .small-screen li {
+    padding-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .small-screen li.wd-active {
+    border-left: 2px solid black;
+  }
+  .small-screen li.wd-active a {
+    color: black;
+  }
+  .small-screen a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .small-screen .fa {
+    padding: 10px;
+  }
+
+  .small-screen .fa-regular {
+    padding: 10px;
+  }
+
+
+  
