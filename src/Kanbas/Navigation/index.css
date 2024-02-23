@@ -1,0 +1,57 @@
+.wd-kanbas-navigation {
+    background-color: black;
+    list-style: none;
+    padding: 0px;  margin: 0px;
+    width: 85px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .wd-kanbas-navigation img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .wd-kanbas-navigation .icon-wrapper {
+    display: block;
+  }
+
+  .wd-kanbas-navigation .label-wrapper{
+    color: white;
+  }
+
+  .wd-kanbas-navigation li {
+    padding: 10px;     
+    font-size: 0.8em;  text-align: center;
+    height: 70px;
+  }
+  .wd-kanbas-navigation li a {
+    color: red;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .wd-kanbas-navigation li.wd-active {
+    background-color: white;
+  }
+  .wd-kanbas-navigation li.wd-active a {
+    color: red;
+  }
+
+  .wd-kanbas-navigation li.wd-active a .label-wrapper {
+    color: red;
+  }
+
+  .wd-kanbas-navigation .fa-user {
+    color: white;
+  }
+
+  .wd-kanbas-navigation li:not(.wd-active) .icon-wrapper .user{
+    color: white;
+  }
+
+  .fixed-height {
+    height: 30px;
+    width: 30px;
+  }

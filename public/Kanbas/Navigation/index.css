@@ -17,7 +17,7 @@
     width: 85px;
   }
   .wd-kanbas-navigation li {
-    padding: 10px;     margin-bottom: 5px;
+    padding: 5px;     margin-bottom: 5px;
     font-size: 0.8em;  text-align: center;
   }
   .wd-kanbas-navigation li.wd-active {

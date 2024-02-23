@@ -1,0 +1,17 @@
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.side-icons {
+    align-items: center;
+}
+
+.assignment-title {
+    text-decoration: none;
+    color: black;
+}
+
+.assignment-description {
+    text-decoration: none;
+    color: red;
+}
