@@ -1,10 +1,10 @@
 .wd-kanbas-navigation {
-    background-color: black;
-    list-style: none;
-    padding: 0px;  margin: 0px;
-    width: 85px;
-    height: 100vh;
-    overflow: hidden;
+  background-color: black;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  position: fixed;
   }
 
   .wd-kanbas-navigation img {

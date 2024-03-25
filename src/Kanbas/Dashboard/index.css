@@ -1,0 +1,35 @@
+.add-button{
+    background-color: #00b300;
+    outline: none;
+    border-radius: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+}
+
+.edit-button{
+    background-color: #00b300;
+    outline: none;
+    border-radius: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+}
+
+.update-button{
+    background-color: #1a75ff;
+    outline: none;
+    border-radius: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+}
+
+.delete-button{
+    background-color: #D94A4A;
+    outline: none;
+    border-radius: 4px;
+    width: 70px;
+    color: white;
+    border: none;
+}

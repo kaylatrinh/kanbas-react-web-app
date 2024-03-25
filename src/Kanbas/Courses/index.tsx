@@ -8,7 +8,7 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams();
   const course = courses.find((course) => course._id === courseId);
   const location = useLocation();
@@ -21,7 +21,7 @@ function Courses() {
 
   return (
     <div>
-      <h1 className="header"><HiMiniBars3 /> {course?.name} <span className="header-breadcrumb"> &gt; {currentPage} </span></h1>
+      <h1 className="header navigation-bar"><HiMiniBars3 /> {course?.name} <span className="header-breadcrumb"> &gt; {currentPage} </span></h1>
       <hr />
       <CourseNavigation />
       <div>
